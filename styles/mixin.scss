@@ -1,0 +1,13 @@
+$global-transition: 0.25s ease;
+
+@mixin mainStyle() {
+  display: block;
+  margin: $size-s 0;
+  background-color: $corporate-color;
+  border-radius: 26px;
+  outline: none;
+  border: 0;
+  padding: $size-m/2 $size-m;
+  color: white;
+  transition: background-color #{$global-transition};
+}

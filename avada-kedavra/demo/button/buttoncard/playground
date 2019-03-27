@@ -1,0 +1,7 @@
+return (
+    <div>
+    <ButtonButtoncard name="colesdebruselas" size={inputSizes.SMALL} type={inputType.default}/>
+    <ButtonButtoncard name="colesdebruselas" />
+    <ButtonButtoncard name="colesdebruselas" size={inputSizes.MEDIUM} type={inputType.secondary}/>
+    </div>
+    )
